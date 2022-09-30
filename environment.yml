@@ -1,0 +1,26 @@
+name: GMMB_GMDB_RL_Hedging
+channels:
+        - defaults
+        - conda-forge
+        - pytorch
+        - anaconda
+dependencies:
+        - pip
+        - python==3.6.4
+        - gym==0.17.2
+        - matplotlib==3.2.2
+        - scipy==1.4.1
+        - seaborn==0.10.1
+        - numpy==1.19.1
+        - pytorch==1.5.1
+
+        - pip:
+            - stable-baselines==2.10.2
+            - tensorflow==1.15.2
+            - tensorboard==1.15
+            - pickleshare==0.7.5
+            - tqdm==4.48.0
+            - pandas==1.0.5
+
+
+
